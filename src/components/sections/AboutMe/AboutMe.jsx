@@ -1,6 +1,10 @@
 import React from 'react'
 import "./AboutMe.css"
 import profileImg from "/src/assets/portfolio-profile-img.png"
+import linkedIn from "/src/assets/linkedin-icon.png"
+import github from "/src/assets/github-icon.png"
+import email from "/src/assets/email-icon.png"
+import instagram from "/src/assets/instagram-icon.png"
 
 const AboutMe = () => {
   return (
@@ -16,10 +20,10 @@ const AboutMe = () => {
       </div>
       <p className='aboutme-p-title'>Estudiante avanzado de la carrera de Desarrollo de Software en ITU de la Universidad de Cuyo. Desarrollador Front End especializado ReactJS</p>
       <div className='aboutme-img-container'>
-        <img className='aboutme-box' src="/src/assets/linkedin-icon.png" alt="LinkedIn" />
-        <img className='aboutme-box' src="/src/assets/github-icon.png" alt="GitHub" />
-        <img className='aboutme-box' src="/src/assets/email-icon.png" alt="Email" />
-        <img className='aboutme-box' src="/src/assets/instagram-icon.png" alt="Instagram" />
+        <img className='aboutme-box' src={linkedIn} alt="LinkedIn" />
+        <img className='aboutme-box' src={github} alt="GitHub" />
+        <img className='aboutme-box' src={email} alt="Email" />
+        <img className='aboutme-box' src={instagram} alt="Instagram" />
       </div>
     </div>
   )
