@@ -1,5 +1,6 @@
 import React from 'react'
 import "./MinePet.css"
+import MinePetImg from "/src/assets/MinePet.png"
 
 const MinePet = () => {
   return (
@@ -14,7 +15,7 @@ const MinePet = () => {
       </div>
 
       <div className='minepet-img'>
-        <img src="src\assets\MinePet.png" alt="MinePet" />
+        <img src={MinePetImg} alt="MinePet" />
       </div>
   
     </div>

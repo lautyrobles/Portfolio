@@ -1,5 +1,6 @@
 import React from 'react'
 import "./WorkHouse.css"
+import WorkHouseImg from "/src/assets/WorkHouse.png"
 
 const WorkHouse = () => {
   return (
@@ -14,7 +15,7 @@ const WorkHouse = () => {
       </div>
 
       <div className='minepet-img'>
-        <img src="src\assets\WorkHouse.png" alt="Workhouse" />
+        <img src={WorkHouseImg} alt="Workhouse" />
       </div>
   
     </div>
