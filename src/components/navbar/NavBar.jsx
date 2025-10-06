@@ -1,5 +1,7 @@
 import React from 'react'
 import "./NavBar.css"
+import spanishFlag from "/src/assets/spanish-icon.png"
+import americanFlag from "/src/assets/english-icon.png"
 
 const NavBar = () => {
   return (
@@ -8,8 +10,8 @@ const NavBar = () => {
         <h1 className='nav-title'>Portfolio</h1>
      </div>
      <div className='nav-flags'>
-      <img src="/src/assets/spanish-icon.png" alt="Español" />
-      <img src="/src/assets/english-icon.png" alt="Ingles" />
+      <img src={spanishFlag} alt="Español" />
+      <img src={americanFlag} alt="Ingles" />
      </div>
     </div>
   )
