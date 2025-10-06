@@ -1,0 +1,25 @@
+.nav-title {
+    color: #dadde2;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vh;
+    padding: 3px 10px 3px 10px;
+    background-color: #181818;
+    border-bottom: 1px solid #f9f871;
+}
+
+.nav-flags {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-flags img {
+    width: 35px;
+    height: 35px;
+}

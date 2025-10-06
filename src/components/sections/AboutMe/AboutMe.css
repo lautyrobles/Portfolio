@@ -1,0 +1,103 @@
+.aboutme-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px 0px 10px;
+    max-width: 100%;
+    background-image: radial-gradient(circle, #424242, #373737, #2c2c2c, #222222, #181818);
+}
+
+.aboutme-container h1 {
+    gap: 0px;
+    padding: 0px;
+    margin: 0px;
+    color: #dadde2;
+    font-size: 35px;
+}
+
+.aboutme-container p {
+    color: #b8b8b8;
+    font-size: 16px;
+}
+
+.aboutme-container h3 {
+    margin: 0px;
+}
+
+/* .myimg {
+    width: 130px;
+    border: 1px solid #dadde2;
+    border-radius: 30px;
+    box-shadow: 9px 10px 23px -7px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 9px 10px 23px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 9px 10px 23px -7px rgba(0,0,0,0.75);
+    background-color: rgb(66, 66, 66);
+} */
+
+.myimg-container {
+    position: relative;
+    width: 400px;
+    height: 200px;
+}
+
+.myimg {
+    position: absolute;
+    top: 0;
+    left: 18px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    z-index: 0;
+    background-color: transparent;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.aboutme-p-title {
+    z-index: 1;
+}
+
+
+.aboutme-title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.aboutme-p p {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 14px;
+    color: #f9f871;
+}
+
+.aboutme-img-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.aboutme-img-container img {
+    width: 40px;
+    height: 40px;
+}
+
+.aboutme-box {
+    background-color: rgb(66, 66, 66);
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    box-shadow: 9px 10px 23px -7px rgba(0,0,0,0.75);
+-webkit-box-shadow: 9px 10px 23px -7px rgba(0,0,0,0.75);
+-moz-box-shadow: 9px 10px 23px -7px rgba(0,0,0,0.75);
+    z-index: 1;
+}

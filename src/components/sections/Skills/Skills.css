@@ -1,0 +1,9 @@
+.skills-main-container {
+    background-image: radial-gradient(circle, #424242, #373737, #2c2c2c, #222222, #181818);
+    color: #dadde2;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}

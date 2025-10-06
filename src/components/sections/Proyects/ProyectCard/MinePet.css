@@ -1,0 +1,35 @@
+.minepet-main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.minepet-img > img {
+    width: 290px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+}
+
+.minepet-description > p {
+    text-align: center;
+    color: #dadde2;
+}
+
+.minepet-title {
+    background-color: white;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 0px;
+    width: 100px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.minepet-title > h3 {
+    color: rgb(33, 33, 33);
+    margin: 0px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
