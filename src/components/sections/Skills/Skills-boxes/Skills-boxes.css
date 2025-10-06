@@ -3,7 +3,7 @@
     background-color: transparent;
     padding: 0px;
     margin: 0px;
-    width: 160px;
+    width: 150px;
     height: auto;
     border-radius: 15px;
     border: 1px solid rgb(85, 85, 85);
@@ -27,6 +27,7 @@
     color: #b8b8b8;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 900;
+    font-size: 15px;
 }
 
 .skills-box-container:nth-child(5) h3 {
