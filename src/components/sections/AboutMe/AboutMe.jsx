@@ -1,5 +1,6 @@
 import React from 'react'
 import "./AboutMe.css"
+import profileImg from "/src/assets/portfolio-profile-img.png"
 
 const AboutMe = () => {
   return (
@@ -10,7 +11,7 @@ const AboutMe = () => {
       <p>Desarrollador Front End</p>
       </div>
       <div className='myimg-container'>
-      <img className='myimg' src="/src/assets/portfolio-profile-img.png" alt="Image" />
+      <img className='myimg' src={profileImg} alt="profileImg" />
       </div>
       </div>
       <p className='aboutme-p-title'>Estudiante avanzado de la carrera de Desarrollo de Software en ITU de la Universidad de Cuyo. Desarrollador Front End especializado ReactJS</p>
