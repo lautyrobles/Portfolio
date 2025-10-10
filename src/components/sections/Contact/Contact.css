@@ -82,7 +82,6 @@ button {
 @media(min-width:1024px) {
   .form-container p {
     font-size: 20px;
-    margin-top: 120px;
   }
 
   .form-container h2 {
@@ -95,7 +94,7 @@ button {
   }
 
   .title-container-form {
-    position: absolute;
+    position: relative;
   }
 
   .title-container-form h2 {

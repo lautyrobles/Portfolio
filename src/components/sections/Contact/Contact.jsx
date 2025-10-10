@@ -52,7 +52,7 @@ const Contact = () => {
       {/* El formulario ejecuta handleSubmit cuando se presiona el botón "Enviar" */}
       <form onSubmit={handleSubmit}>
         {/* Campo de nombre */}
-        <input data-aos='fade-right'
+        <input data-aos='fade-in'
           type="text"
           name="nombre"
           placeholder="Nombre"
@@ -62,7 +62,7 @@ const Contact = () => {
         />
 
         {/* Campo de apellido */}
-        <input data-aos='fade-left'
+        <input data-aos='fade-in'
           type="text"
           name="apellido"
           placeholder="Apellido"
@@ -72,7 +72,7 @@ const Contact = () => {
         />
 
         {/* Campo de correo electrónico */}
-        <input data-aos='fade-right'
+        <input data-aos='fade-in'
           type="email"
           name="email"
           placeholder="Correo electrónico"
@@ -82,7 +82,7 @@ const Contact = () => {
         />
 
         {/* Campo de mensaje */}
-        <textarea data-aos='fade-left'
+        <textarea data-aos='fade-in'
           name="mensaje"
           placeholder="Escribí tu mensaje..."
           value={formData.mensaje}
