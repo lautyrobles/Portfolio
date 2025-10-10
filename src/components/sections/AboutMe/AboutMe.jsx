@@ -8,22 +8,22 @@ import instagram from "/src/assets/instagram-icon.png"
 
 const AboutMe = () => {
   return (
-    <div className='aboutme-container'>
+    <div className='aboutme-container page-enter'>
       <div className='aboutme-title'>
         <div className='aboutme-p'>
       <h1>Lautaro Robles</h1>
       <p>Desarrollador Front End</p>
       </div>
       <div className='myimg-container'>
-      <img className='myimg' src={profileImg} alt="profileImg" />
+      <img className='myimg page-enter-right-to-left' src={profileImg} alt="profileImg" />
       </div>
       </div>
       <p className='aboutme-p-title'>Estudiante avanzado de la carrera de Desarrollo de Software en ITU de la Universidad de Cuyo. Desarrollador Front End especializado ReactJS</p>
       <div className='aboutme-img-container'>
-        <img className='aboutme-box' src={linkedIn} alt="LinkedIn" />
-        <img className='aboutme-box' src={github} alt="GitHub" />
-        <img className='aboutme-box' src={email} alt="Email" />
-        <img className='aboutme-box' src={instagram} alt="Instagram" />
+        <img className='aboutme-box social-box-1' src={linkedIn} alt="LinkedIn" />
+        <img className='aboutme-box social-box-2' src={github} alt="GitHub" />
+        <img className='aboutme-box social-box-3' src={email} alt="Email" />
+        <img className='aboutme-box social-box-4' src={instagram} alt="Instagram" />
       </div>
     </div>
   )

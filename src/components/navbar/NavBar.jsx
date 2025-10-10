@@ -8,11 +8,11 @@ const NavBar = () => {
      
     <div className='nav-container'>
      <div className='nav-title'>
-        <h1>Portfolio</h1>
+        <h1 className='portfolio-enter'>Portfolio</h1>
      </div>
      <div className='nav-flags'>
-      <img src={spanishFlag} alt="Español" />
-      <img src={americanFlag} alt="Ingles" />
+      <img className='page-enter-flags-1' src={spanishFlag} alt="Español" />
+      <img className='page-enter-flags-2' src={americanFlag} alt="Ingles" />
      </div>
     </div>
     

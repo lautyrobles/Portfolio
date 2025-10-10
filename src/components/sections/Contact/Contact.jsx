@@ -1,6 +1,11 @@
 import React, { useState } from 'react'
 import "./Contact.css"
 
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+
 const Contact = () => {
 
     const [formData, setFormData] = useState({
@@ -30,16 +35,22 @@ const Contact = () => {
         })
     }
 
+    
+  useEffect(() => {
+    AOS.init({ duration: 1000 });
+  }, []);
+
+
   return (
      <section className="formulario-container">
       <div className='form-container'>
-      <h2>Contacto</h2>
-      <p>Si te interesa mi trabajo o te gustaria ponerte en contacto, completá el formulario o enviame un correo a <span>lautamc123@hotmail.com</span></p>
+      <h2 data-aos='fade-in'>Contacto</h2>
+      <p data-aos='fade-in'>Si te interesa mi trabajo o te gustaria ponerte en contacto, completá el formulario o enviame un correo a <span>lautamc123@hotmail.com</span></p>
 
       {/* El formulario ejecuta handleSubmit cuando se presiona el botón "Enviar" */}
       <form onSubmit={handleSubmit}>
         {/* Campo de nombre */}
-        <input
+        <input data-aos='fade-right'
           type="text"
           name="nombre"
           placeholder="Nombre"
@@ -49,7 +60,7 @@ const Contact = () => {
         />
 
         {/* Campo de apellido */}
-        <input
+        <input data-aos='fade-left'
           type="text"
           name="apellido"
           placeholder="Apellido"
@@ -59,7 +70,7 @@ const Contact = () => {
         />
 
         {/* Campo de correo electrónico */}
-        <input
+        <input data-aos='fade-right'
           type="email"
           name="email"
           placeholder="Correo electrónico"
@@ -69,7 +80,7 @@ const Contact = () => {
         />
 
         {/* Campo de mensaje */}
-        <textarea
+        <textarea data-aos='fade-left'
           name="mensaje"
           placeholder="Escribí tu mensaje..."
           value={formData.mensaje}
@@ -78,7 +89,7 @@ const Contact = () => {
         ></textarea>
 
         {/* Botón de envío */}
-        <button type="submit">Enviar</button>
+        <button data-aos='fade-right' type="submit">Enviar</button>
       </form>
       </div>
     </section>

@@ -7,7 +7,9 @@ import Diseño from './Skills-boxes/Diseño'
 import Conocimientos from './Skills-boxes/Conocimientos'
 import Trabajos from './Skills-boxes/Trabajos'
 
+
 const Skills = () => {
+
   return (
     <div className='skills-main-container'>
       <div className='skills-container'>

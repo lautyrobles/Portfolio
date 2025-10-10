@@ -33,3 +33,37 @@
         justify-content: space-around;
     }
 }
+
+@keyframes fadeIn-Portfolio {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.portfolio-enter {
+    animation: fadeIn-Portfolio 1s ease-out;
+}
+
+@keyframes fadeIn-flags {
+    from{
+        opacity:0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0px);
+      }
+}
+
+.page-enter-flags-1 {
+    animation: fadeIn-flags 1s ease-in-out;
+}
+
+.page-enter-flags-2 {
+    animation: fadeIn-flags 1.5s ease-in-out;
+}
