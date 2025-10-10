@@ -91,7 +91,7 @@ const Contact = () => {
         ></textarea>
 
         {/* Botón de envío */}
-        <button data-aos='fade-right' type="submit">Enviar</button>
+        <button data-aos='contact-button fade-right' type="submit">Enviar</button>
       </form>
       </div>
     </section>

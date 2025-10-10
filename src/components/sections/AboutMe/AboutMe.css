@@ -12,7 +12,7 @@
     padding: 0px;
     margin: 0px;
     color: #dadde2;
-    font-size: 35px;
+    font-size: 38px;
 }
 
 .aboutme-container p {
@@ -96,7 +96,7 @@
 }
 
 .aboutme-box {
-    background-color: rgb(66, 66, 66);
+    background-color: rgba(15, 0, 131, 0.631);
     border-radius: 5px;
     border: none;
     padding: 10px;
@@ -202,7 +202,7 @@
 @media (min-width: 1024px) {
 
     .aboutme-container h1 {
-        font-size: 40px;
+        font-size: 44px;
     }
 
     .aboutme-container p {
@@ -247,6 +247,18 @@
     align-items: flex-start;
 }
 
+.aboutme-box {
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: 1.5px solid darkslategrey;
+}
+
+.aboutme-box:hover {
+    transition: all 0.4s ease;
+    transform: scale(1.2);
+    border: 0.5px solid aqua;
+}
+
 
 }
 
@@ -257,6 +269,18 @@
 
     .aboutme-p-title {
     max-width: 900px;
+}
+
+.myimg-container {
+    position: unset;
+}
+
+.myimg {
+    max-width: 600px;
+    max-height: 500px;
+    border-radius: 300px;
+    margin-top: 170px;
+    border: 2px solid darkslategrey;
 }
 
 }
@@ -274,6 +298,10 @@
 
 .page-enter {
     animation: fadeIn 2s ease-out;
+}
+
+.page-enter-title {
+    animation: fadeIn 3s ease;
 }
 
 @keyframes fadeIn-right-to-left {

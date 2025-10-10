@@ -14,9 +14,10 @@
     align-items: center;
     height: 5vh;
     padding: 3px 10px 3px 10px;
-    background-color: #181818;
-    border-bottom: 1px solid #f9f871;
+    background-color: #000B1C;
+    border-bottom: 1px solid white;
 }
+
 
 .nav-flags {
     display: flex;
@@ -96,8 +97,8 @@
     align-items: center;
     height: 5vh;
     padding: 3px 10px 3px 10px;
-    background-color: #181818;
-    border-bottom: 1px solid #f9f871;
+    background-color: #000B1C;
+    border-bottom: 1px solid white;
 }
 
 .nav-flags {

@@ -91,6 +91,14 @@ button {
   button {
     font-size: 20px;
     width: 120px;
+    transition: all 0.1s ease-in;
+    border: 2px solid #b8b8b8;
+  }
+
+  button:hover {
+    transition: all 0.1s ease-in;
+    border: 2px solid aqua;
+    background-color: rgb(0, 67, 67);
   }
 
   .title-container-form {
