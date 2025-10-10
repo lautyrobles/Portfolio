@@ -43,6 +43,7 @@ textarea {
   box-sizing: border-box;
   background-color: transparent;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  max-width: 500px;
 }
 
 textarea {
@@ -81,10 +82,24 @@ button {
 @media(min-width:1024px) {
   .form-container p {
     font-size: 20px;
+    margin-top: 120px;
+  }
+
+  .form-container h2 {
+    font-size: 38px;
   }
 
   button {
     font-size: 20px;
     width: 120px;
+  }
+
+  .title-container-form {
+    position: absolute;
+  }
+
+  .title-container-form h2 {
+    position: relative;
+    right: 100px;
   }
 }

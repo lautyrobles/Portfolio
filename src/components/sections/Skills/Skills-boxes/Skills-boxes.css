@@ -43,8 +43,8 @@
     background-color: transparent;
     padding: 0px;
     margin: 0px;
-    width: 300px;
-    height: auto;
+    width: 350px;
+    height: 250px;
     border-radius: 15px;
     border: 1px solid rgb(85, 85, 85);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -66,8 +66,8 @@
 .skills-box-container > ul {
     color: #b8b8b8;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 900;
-    font-size: 20px;
+    font-weight: 600;
+    font-size: 24px;
 }
 
 .skills-box-container:nth-child(5) h3 {

@@ -15,11 +15,11 @@
 
 .minepet-description > p {
     text-align: center;
-    color: #dadde2;
+    color: #b8b8b8;
 }
 
 .minepet-title {
-    background-color: white;
+    background-color: transparent;
     border: 1px solid rgb(255, 255, 255);
     padding: 0px;
     width: 100px;
@@ -28,10 +28,19 @@
 }
 
 .minepet-title > h3 {
-    color: rgb(33, 33, 33);
+    color: rgb(255, 255, 255);
     margin: 0px;
     padding: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+@media(min-width:590px){
+    .minepet-img > img {
+    width: 350px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 0px;
+    box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+}
 }
 
 @media(min-width:1024px) {
@@ -46,7 +55,7 @@
 }
 
 .minepet-img > img {
-    width: 390px;
+    width: 500px;
     border: 3px solid rgb(255, 255, 255);
     border-radius: 0px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -54,12 +63,12 @@
 
 .minepet-description > p {
     text-align: center;
-    color: #dadde2;
+    color: #b8b8b8;
     font-size: 18px;
 }
 
 .minepet-title {
-    background-color: white;
+    background-color: transparent;
     border: 1px solid rgb(255, 255, 255);
     padding: 0px;
     width: 130px;
@@ -69,7 +78,7 @@
 }
 
 .minepet-title > h3 {
-    color: rgb(33, 33, 33);
+    color: rgb(255, 255, 255);
     margin: 0px;
     padding: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;

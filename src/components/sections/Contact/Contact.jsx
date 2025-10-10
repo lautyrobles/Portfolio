@@ -44,7 +44,9 @@ const Contact = () => {
   return (
      <section className="formulario-container">
       <div className='form-container'>
-      <h2 data-aos='fade-in'>Contacto</h2>
+        <div className='title-container-form'>
+          <h2 data-aos='fade-in'>Contacto</h2>
+        </div>
       <p data-aos='fade-in'>Si te interesa mi trabajo o te gustaria ponerte en contacto, completá el formulario o enviame un correo a <span>lautamc123@hotmail.com</span></p>
 
       {/* El formulario ejecuta handleSubmit cuando se presiona el botón "Enviar" */}
