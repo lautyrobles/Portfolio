@@ -32,6 +32,7 @@ const Contact = () => {
 
   return (
      <section className="formulario-container">
+      <div className='form-container'>
       <h2>Contacto</h2>
       <p>Si te interesa mi trabajo o te gustaria ponerte en contacto, completá el formulario o enviame un correo a <span>lautamc123@hotmail.com</span></p>
 
@@ -79,6 +80,7 @@ const Contact = () => {
         {/* Botón de envío */}
         <button type="submit">Enviar</button>
       </form>
+      </div>
     </section>
   )
 }

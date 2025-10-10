@@ -7,3 +7,12 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.skills-container {
+    color: #dadde2;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 750px;
+}

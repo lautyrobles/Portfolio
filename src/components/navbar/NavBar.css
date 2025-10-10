@@ -4,6 +4,10 @@
     font-weight: 500;
 }
 
+.nav-title h1 {
+    font-size: 16px;
+}
+
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -22,4 +26,10 @@
 .nav-flags img {
     width: 35px;
     height: 35px;
+}
+
+@media (min-width:500px) {
+    .nav-container {
+        justify-content: space-around;
+    }
 }

@@ -5,15 +5,17 @@ import americanFlag from "/src/assets/english-icon.png"
 
 const NavBar = () => {
   return (
+     
     <div className='nav-container'>
-     <div>
-        <h1 className='nav-title'>Portfolio</h1>
+     <div className='nav-title'>
+        <h1>Portfolio</h1>
      </div>
      <div className='nav-flags'>
       <img src={spanishFlag} alt="Español" />
       <img src={americanFlag} alt="Ingles" />
      </div>
     </div>
+    
   )
 }
 

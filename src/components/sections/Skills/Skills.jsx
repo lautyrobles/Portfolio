@@ -10,7 +10,8 @@ import Trabajos from './Skills-boxes/Trabajos'
 const Skills = () => {
   return (
     <div className='skills-main-container'>
-      
+      <div className='skills-container'>
+
       <Lenguajes/>
       <Librerias/>
       <Herramientas/>
@@ -18,6 +19,7 @@ const Skills = () => {
       <Conocimientos/>
       <Trabajos/>
 
+      </div>
     </div>
   )
 }
