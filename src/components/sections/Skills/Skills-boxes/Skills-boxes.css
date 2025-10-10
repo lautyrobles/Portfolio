@@ -36,3 +36,44 @@
 .skills-box-container:nth-child(6) h3 {
     color: #aed100;
 }
+
+@media (min-width:1024px) {
+    .skills-box-container {
+    background-color: rgb(71, 71, 71);
+    background-color: transparent;
+    padding: 0px;
+    margin: 0px;
+    width: 300px;
+    height: auto;
+    border-radius: 15px;
+    border: 1px solid rgb(85, 85, 85);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.skills-box-container > h3 {
+    font-size: 20px;
+    height: 30px;
+    text-align: center;
+    background-color: #434343;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: rgb(32, 169, 52);
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.skills-box-container > ul {
+    color: #b8b8b8;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.skills-box-container:nth-child(5) h3 {
+    color:#aed100;
+}
+.skills-box-container:nth-child(6) h3 {
+    color: #aed100;
+}
+}

@@ -1,5 +1,5 @@
 .skills-main-container {
-    background-image: radial-gradient(circle, #424242, #373737, #2c2c2c, #222222, #181818);
+    /* background-image: radial-gradient(circle, #424242, #373737, #2c2c2c, #222222, #181818); */
     color: #dadde2;
     padding: 20px;
     display: flex;
@@ -15,4 +15,10 @@
     flex-wrap: wrap;
     justify-content: center;
     max-width: 750px;
+}
+
+@media (min-width:1024px) {
+    .skills-container {
+        max-width: 900px;
+    }
 }

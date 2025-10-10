@@ -1,7 +1,7 @@
 .formulario-container {
   padding: 1px 15px 15px 15px;
-  background-image: radial-gradient(circle, #424242, #373737, #2c2c2c, #222222, #181818);
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  /* background-image: radial-gradient(circle, #424242, #373737, #2c2c2c, #222222, #181818); */
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
   font-family: "Open Sans", sans-serif;
   display: flex;
   justify-content: center;
@@ -76,4 +76,15 @@ button {
 
 .form-container {
   max-width: 800px;
+}
+
+@media(min-width:1024px) {
+  .form-container p {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 20px;
+    width: 120px;
+  }
 }
