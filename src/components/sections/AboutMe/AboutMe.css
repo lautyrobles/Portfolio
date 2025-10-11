@@ -7,6 +7,10 @@
     /* background-image: radial-gradient(circle, #424242, #373737, #2c2c2c, #222222, #181818); */
 }
 
+.aboutme-img-container a {
+    z-index: 1;
+}
+
 .aboutme-container h1 {
     gap: 0px;
     padding: 0px;

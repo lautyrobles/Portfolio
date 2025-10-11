@@ -5,8 +5,10 @@ import linkedIn from "/src/assets/linkedin-icon.png"
 import github from "/src/assets/github-icon.png"
 import email from "/src/assets/email-icon.png"
 import cvIcon from "/src/assets/cv-icon.png"
+import { Link } from 'react-scroll'
 
 const AboutMe = () => {
+
   return (
     <div className='aboutme-container page-enter'>
       <div className='aboutme-title'>
@@ -20,10 +22,18 @@ const AboutMe = () => {
       </div>
       <p className='aboutme-p-title'>Estudiante avanzado de la carrera de Desarrollo de Software en el ITU de la Universidad de Cuyo. Desarrollador Front End especializado en ReactJS.</p>
       <div className='aboutme-img-container'>
+        <a target='_blank' href="https://www.linkedin.com/in/lautaro-robles-003a44233/">
         <img className='aboutme-box social-box-1' src={linkedIn} alt="LinkedIn" />
+        </a>
+        <a target='_blank' href="https://github.com/lautyrobles">
         <img className='aboutme-box social-box-2' src={github} alt="GitHub" />
+        </a>
+        <Link to="contacto" smooth={true} duration={1000}>
         <img className='aboutme-box social-box-3' src={email} alt="Email" />
+        </Link>
+        <a target='_blank' href="/public/CURRICULUM VITAE - LAUTARO ROBLES.pdf" download="CURRICULUM VITAE - LAUTARO ROBLES.pdf">
         <img className='aboutme-box social-box-4' src={cvIcon} alt="Curriculum Vitae" />
+        </a>
       </div>
     </div>
   )

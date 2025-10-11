@@ -42,7 +42,7 @@ const Contact = () => {
 
 
   return (
-     <section className="formulario-container">
+     <section name="contacto" className="formulario-container">
       <div className='form-container'>
         <div className='title-container-form'>
           <h2 data-aos='fade-in'>Contacto</h2>
