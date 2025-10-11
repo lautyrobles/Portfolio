@@ -24,7 +24,9 @@ const WorkHouse = () => {
       </div>
 
       <div data-aos='fade-up' className='minepet-img'>
+        <a className='minepet-img' href="https://work-house-repo.vercel.app/" target='_blanket'>
         <img src={WorkHouseImg} alt="Workhouse" />
+        </a>
       </div>
   
     </div>

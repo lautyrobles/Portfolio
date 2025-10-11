@@ -24,7 +24,9 @@ const MinePet = () => {
       </div>
 
       <div data-aos='fade-up' className='minepet-img'>
-        <img src={MinePetImg} alt="MinePet" />
+        <a className='minepet-img' href="https://mine-pet.vercel.app/" target='_blanket'>
+          <img src={MinePetImg} alt="Minepet" />
+        </a>
       </div>
   
     </div>

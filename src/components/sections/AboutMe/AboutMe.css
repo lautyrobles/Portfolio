@@ -342,6 +342,7 @@
 
 .social-box-3 {
     animation: fadeIn 1.8s ease-in;
+    cursor: pointer;
 }
 
 .social-box-4 {
