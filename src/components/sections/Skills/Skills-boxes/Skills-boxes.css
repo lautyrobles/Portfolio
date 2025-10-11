@@ -20,7 +20,7 @@
     align-items: center;
     padding: 10px;
     color: rgb(32, 169, 52);
-    font-family:Arial, Helvetica, sans-serif ;
+    font-family: "Inter", sans-serif;
 }
 
 .skills-box-container > ul {
@@ -60,7 +60,6 @@
     align-items: center;
     padding: 10px;
     color: rgb(32, 169, 52);
-    font-family:Arial, Helvetica, sans-serif ;
 }
 
 .skills-box-container > ul {

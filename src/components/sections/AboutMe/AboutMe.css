@@ -20,8 +20,17 @@
     font-size: 16px;
 }
 
+
+.aboutme-p h1, p {
+  font-family: "Inter", sans-serif;
+}
+
 .aboutme-container h3 {
     margin: 0px;
+}
+
+.aboutme-p-title {
+    font-family: "Inter", sans-serif;
 }
 
 /* .myimg {
