@@ -11,7 +11,7 @@
 .skills-container {
     color: #dadde2;
     display: flex;
-    gap: 30px;
+    gap: 15px;
     flex-wrap: wrap;
     justify-content: center;
     max-width: 750px;
@@ -20,5 +20,6 @@
 @media (min-width:1024px) {
     .skills-container {
         max-width: 900px;
+        gap: 30px;
     }
 }
