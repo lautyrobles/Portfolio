@@ -165,7 +165,7 @@
     align-items: center;
     padding: 10px;
     text-align: center;
-    max-width: 800px;
+    max-width: 450px;
     gap: 10px;
 }
 
@@ -234,6 +234,11 @@
         width: 60px;
         height: auto;
     }
+    
+        .aboutme-title {
+            gap: 100px;
+            max-width: 900px;
+        }
 
     .myimg-container {
         height: 300px;
@@ -241,11 +246,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
-    .aboutme-title {
-        gap: 100px;
-        max-width: 900px;
     }
 
     .myimg {
@@ -295,9 +295,10 @@
 .myimg {
     max-width: 600px;
     max-height: 500px;
-    border-radius: 300px;
-    margin-top: 170px;
-    border: 2px solid darkslategrey;
+    border-radius: 50%;
+    margin-top: 180px;
+    border: 2px solid rgb(0, 67, 67);
+    background-color: rgba(18, 27, 27, 0.25);
 }
 
 }
