@@ -31,7 +31,7 @@ const AboutMe = () => {
         <Link to="contacto" smooth={true} duration={1000}>
         <img className='aboutme-box social-box-3' src={email} alt="Email" />
         </Link>
-        <a target='_blank' href="/public/CURRICULUM VITAE - LAUTARO ROBLES.pdf" download="CURRICULUM VITAE - LAUTARO ROBLES.pdf">
+        <a target='_blank' href="/CURRICULUM VITAE - LAUTARO ROBLES.pdf" download="CURRICULUM VITAE - LAUTARO ROBLES.pdf">
         <img className='aboutme-box social-box-4' src={cvIcon} alt="Curriculum Vitae" />
         </a>
       </div>
