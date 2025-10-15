@@ -17,10 +17,10 @@ const Trabajos = () => {
         <h3>Experiencia <br /> Laboral</h3>
         <ul>
             <li>Empresa: Indicom S.A.</li>
-            <li>Soporte Tecnico</li>
+            <li>Soporte Técnico</li>
             <li>Soporte Comercial</li>
-            <li>Atencion al Cliente</li>
-            <li>Duracion: 3 Años</li>
+            <li>Atención al Cliente</li>
+            <li>Duración: 3 Años</li>
         </ul>  
         </div>
   )

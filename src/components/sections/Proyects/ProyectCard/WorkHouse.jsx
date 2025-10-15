@@ -20,7 +20,8 @@ const WorkHouse = () => {
       </div>
 
       <div data-aos='fade-up' className='minepet-description'>
-        <p>WorkHouse es un diseño Desktop de una aplicacion para busqueda de empleo que busca dar una interfaz agradable y fluida</p>
+        <p>WorkHouse es un prototipo de plataforma digital de búsqueda laboral y formación, diseñado con HTML, CSS y JavaScript.</p>
+        <p>Presenta un diseño moderno, adaptable y fácil de navegar, que muestra cómo los usuarios podrían buscar empleos, acceder a cursos y gestionar sus oportunidades laborales desde un mismo entorno intuitivo.</p>
       </div>
 
       <div data-aos='fade-up' className='minepet-img'>

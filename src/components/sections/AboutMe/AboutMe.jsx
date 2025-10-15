@@ -20,7 +20,7 @@ const AboutMe = () => {
       <img className='myimg page-enter-right-to-left' src={profileImg} alt="profileImg" />
       </div>
       </div>
-      <p className='aboutme-p-title'>Estudiante avanzado de la carrera de Desarrollo de Software en el ITU de la Universidad de Cuyo. Desarrollador Front End especializado en ReactJS.</p>
+      <p className='aboutme-p-title'>Estudiante avanzado de la carrera de Desarrollo de Software en el ITU de la Universidad Nacional de Cuyo. Desarrollador Front End especializado en ReactJS.</p>
       <div className='aboutme-img-container'>
         <a target='_blank' href="https://www.linkedin.com/in/lautaro-robles-003a44233/">
         <img className='aboutme-box social-box-1' src={linkedIn} alt="LinkedIn" />
