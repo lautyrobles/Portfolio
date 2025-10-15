@@ -21,8 +21,12 @@ useEffect(() => {
       <div className='proyects-container'>
         
       <h1 data-aos='fade-in' className='proyects-main-title'>Mis Proyectos</h1>
+       <div className='section-container'>
+
       <MinePet/>
       <WorkHouse/>
+      
+       </div>
       
       </div>
     </div>
