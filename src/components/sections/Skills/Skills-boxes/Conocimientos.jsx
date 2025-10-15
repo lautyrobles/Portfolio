@@ -5,6 +5,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react'
 
+import { useTranslation } from "react-i18next";
+
 
 const Conocimientos = () => {
 
@@ -12,13 +14,19 @@ const Conocimientos = () => {
         AOS.init({duration: 1000})
       }, [])
 
+        const { t, i18n } = useTranslation();
+
+  const cambiarIdioma = (lng) => {
+    i18n.changeLanguage(lng);
+  };
+
   return (
     <div data-aos='fade-up' className='skills-box-container'>
-        <h3>Experiencia Academica</h3>
+        <h3>{t("skillsH6")}</h3>
         <ul>
-            <li>Programación Estructurada / POO</li>
+            <li>{t("programming")}</li>
             <li>JAVA - C</li>
-            <li>Bases de Datos</li>
+            <li>{t("baseDatos")}</li>
             <li>SQL - MongoDB - Neo4j</li>
         </ul>  
         </div>

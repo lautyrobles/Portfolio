@@ -6,7 +6,15 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 
+import { useTranslation } from "react-i18next";
+
 const Contact = () => {
+
+    const { t, i18n } = useTranslation();
+
+  const cambiarIdioma = (lng) => {
+    i18n.changeLanguage(lng);
+  };
 
     const [formData, setFormData] = useState({
         nombre:"",
@@ -45,9 +53,9 @@ const Contact = () => {
      <section name="contacto" className="formulario-container">
       <div className='form-container'>
         <div className='title-container-form'>
-          <h2 data-aos='fade-in'>Contacto</h2>
+          <h2 data-aos='fade-in'>{t("contact")}</h2>
         </div>
-      <p data-aos='fade-in'>Si te interesa mi trabajo o te gustaría ponerte en contacto, completá el formulario o enviame un correo a <span>lautamc123@hotmail.com</span></p>
+      <p data-aos='fade-in'>{t("contactP")} <span>{t("contactE")}</span></p>
 
       {/* El formulario ejecuta handleSubmit cuando se presiona el botón "Enviar" */}
       <form onSubmit={handleSubmit}>
@@ -55,7 +63,7 @@ const Contact = () => {
         <input data-aos='fade-in'
           type="text"
           name="nombre"
-          placeholder="Nombre"
+          placeholder={t("name")}
           value={formData.nombre} // Valor controlado por el estado
           onChange={handleChange} // Cada vez que cambia, se actualiza el estado
           required
@@ -65,7 +73,7 @@ const Contact = () => {
         <input data-aos='fade-in'
           type="text"
           name="apellido"
-          placeholder="Apellido"
+          placeholder={t("lastName")}
           value={formData.apellido}
           onChange={handleChange}
           required
@@ -75,7 +83,7 @@ const Contact = () => {
         <input data-aos='fade-in'
           type="email"
           name="email"
-          placeholder="Correo electrónico"
+          placeholder={t("email")}
           value={formData.email}
           onChange={handleChange}
           required
@@ -84,14 +92,14 @@ const Contact = () => {
         {/* Campo de mensaje */}
         <textarea data-aos='fade-in'
           name="mensaje"
-          placeholder="Escribí tu mensaje..."
+          placeholder={t("msg")}
           value={formData.mensaje}
           onChange={handleChange}
           required
         ></textarea>
 
         {/* Botón de envío */}
-        <button data-aos='contact-button fade-right' type="submit">Enviar</button>
+        <button data-aos='contact-button fade-right' type="submit">{t("send")}</button>
       </form>
       </div>
     </section>

@@ -7,20 +7,28 @@ import email from "/src/assets/email-icon.png"
 import cvIcon from "/src/assets/cv-icon.png"
 import { Link } from 'react-scroll'
 
+import { useTranslation } from "react-i18next";
+
 const AboutMe = () => {
+
+   const { t, i18n } = useTranslation();
+
+  const cambiarIdioma = (lng) => {
+    i18n.changeLanguage(lng);
+  };
 
   return (
     <div className='aboutme-container page-enter'>
       <div className='aboutme-title'>
         <div className='aboutme-p'>
       <h1>Lautaro Robles</h1>
-      <p className='page-enter-title'>Desarrollador Front End</p>
+      <p className='page-enter-title'>{t("developer")}</p>
       </div>
       <div className='myimg-container'>
       <img className='myimg page-enter-right-to-left' src={profileImg} alt="profileImg" />
       </div>
       </div>
-      <p className='aboutme-p-title'>Estudiante avanzado de la carrera de Desarrollo de Software en el ITU de la Universidad Nacional de Cuyo. Desarrollador Front End especializado en ReactJS.</p>
+      <p className='aboutme-p-title'>{t("estudiante")}</p>
       <div className='aboutme-img-container'>
         <a target='_blank' href="https://www.linkedin.com/in/lautaro-robles-003a44233/">
         <img className='aboutme-box social-box-1' src={linkedIn} alt="LinkedIn" />

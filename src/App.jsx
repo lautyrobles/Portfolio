@@ -8,7 +8,18 @@ import Contact from './components/sections/Contact/Contact'
 import Footer from './components/sections/Footer/Footer'
 import SkillsTitle from './components/sections/Skills Title/SkillsTitle'
 
+import './i18n'
+import { useTranslation } from 'react-i18next'
+
 const App = () => {
+
+  const { i18n } = useTranslation();
+
+  const toggleLanguage = () => {
+    const newLang = i18n.language === 'es' ? 'en' : 'es';
+    i18n.changeLanguage(newLang);
+  }
+
   return (
     <div>
       <NavBar/>

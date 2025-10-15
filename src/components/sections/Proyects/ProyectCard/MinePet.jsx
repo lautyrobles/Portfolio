@@ -6,11 +6,19 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
 
+import { useTranslation } from "react-i18next";
+
 const MinePet = () => {
 
   useEffect(() => {
     AOS.init({ duration: 1500 });
   }, []);
+
+   const { t, i18n } = useTranslation();
+
+  const cambiarIdioma = (lng) => {
+    i18n.changeLanguage(lng);
+  };
 
   return (
     <div className='minepet-main-container'>
@@ -20,9 +28,7 @@ const MinePet = () => {
       </div>
 
       <div data-aos='fade-up' className='minepet-description'>
-        <p>MinePet es un E-Commerce desarrollado con HTML, CSS y JavaScript, diseñado para ofrecer una experiencia visual atractiva, intuitiva y adaptable a todo tipo de dispositivos.</p>
-        <p>Su interfaz está pensada para transmitir una estética amigable y profesional, priorizando la usabilidad y la presentación de los productos.</p>
-        <p>MinePet representa un ejemplo de cómo aplicar buenas prácticas de diseño web y desarrollo front-end para crear una tienda online funcional, escalable y visualmente atractiva.</p>
+        <p>{t("myProyectsP1")}</p>
       </div>
 
       <div data-aos='fade-up' className='minepet-img'>

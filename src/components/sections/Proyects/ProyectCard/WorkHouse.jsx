@@ -6,11 +6,19 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
 
+import { useTranslation } from "react-i18next";
+
 const WorkHouse = () => {
 
   useEffect(() => {
     AOS.init({ duration: 1500 });
   }, []);
+
+   const { t, i18n } = useTranslation();
+
+  const cambiarIdioma = (lng) => {
+    i18n.changeLanguage(lng);
+  };
 
   return (
     <div className='minepet-main-container'>
@@ -20,8 +28,7 @@ const WorkHouse = () => {
       </div>
 
       <div data-aos='fade-up' className='minepet-description'>
-        <p>WorkHouse es un prototipo de plataforma digital de búsqueda laboral y formación, diseñado con HTML, CSS y JavaScript.</p>
-        <p>Presenta un diseño moderno, adaptable y fácil de navegar, que muestra cómo los usuarios podrían buscar empleos, acceder a cursos y gestionar sus oportunidades laborales desde un mismo entorno intuitivo.</p>
+        <p>{t("myProyectsP2")}</p>
       </div>
 
       <div data-aos='fade-up' className='minepet-img'>

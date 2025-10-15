@@ -5,6 +5,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react'
 
+import { useTranslation } from "react-i18next";
+
 
 const Diseño = () => {
 
@@ -12,9 +14,15 @@ const Diseño = () => {
         AOS.init({duration: 1000})
       }, [])
 
+        const { t, i18n } = useTranslation();
+
+  const cambiarIdioma = (lng) => {
+    i18n.changeLanguage(lng);
+  };
+
   return (
      <div data-aos='fade-up' className='skills-box-container'>
-        <h3>Diseño y Accesibilidad</h3>
+        <h3>{t("skillsH5")}</h3>
         <ul>
             <li>Responsive Design</li>
             <li>UI Libraries</li>
