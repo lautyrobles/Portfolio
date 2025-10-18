@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./AboutMe.css"
 import profileImg from "/src/assets/portfolio-profile-img.png"
 import linkedIn from "/src/assets/linkedin-icon.png"
@@ -16,6 +16,10 @@ const AboutMe = () => {
   const cambiarIdioma = (lng) => {
     i18n.changeLanguage(lng);
   };
+
+  const cvPath = i18n.language === "es" ? "/CURRICULUM VITAE - LAUTARO ROBLES.pdf" : "/RESUME - Lautaro Robles.pdf"
+  
+  const cvName = i18n.language === "es" ? "CURRICULUM VITAE - LAUTARO ROBLES.PDF" : "RESUME - Lautaro Robles.pdf"  
 
   return (
     <div className='aboutme-container page-enter'>
@@ -39,7 +43,7 @@ const AboutMe = () => {
         <Link to="contacto" smooth={true} duration={1000}>
         <img className='aboutme-box social-box-3' src={email} alt="Email" />
         </Link>
-        <a target='_blank' href="/CURRICULUM VITAE - LAUTARO ROBLES.pdf" download="CURRICULUM VITAE - LAUTARO ROBLES.pdf">
+        <a target='_blank' href={cvPath} download={cvName}>
         <img className='aboutme-box social-box-4' src={cvIcon} alt="Curriculum Vitae" />
         </a>
       </div>
