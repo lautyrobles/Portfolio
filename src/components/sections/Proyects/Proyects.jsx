@@ -31,8 +31,8 @@ const { t, i18n } = useTranslation();
       <h1 data-aos='fade-in' className='proyects-main-title'>{t("myProyects")}</h1>
        <div className='section-container'>
 
-      <MinePet/>
       <WorkHouse/>
+      <MinePet/>
       
        </div>
       
