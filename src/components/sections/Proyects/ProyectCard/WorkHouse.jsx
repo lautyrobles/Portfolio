@@ -1,6 +1,6 @@
 import React from 'react'
 import "./WorkHouse.css"
-import WorkHouseImg from "/src/assets/WorkHouse.png"
+import ipnImg from "/src/assets/IPN.jpeg"
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'
@@ -24,7 +24,7 @@ const WorkHouse = () => {
     <div className='minepet-main-container'>
 
       <div data-aos='fade-up' className='minepet-title'>
-        <h3>Woha</h3>
+        <h3>IPN</h3>
       </div>
 
       <div data-aos='fade-up' className='minepet-description'>
@@ -32,8 +32,8 @@ const WorkHouse = () => {
       </div>
 
       <div data-aos='fade-up' className='minepet-img'>
-        <a className='minepet-img' href="https://work-house-repo.vercel.app/" target='_blanket'>
-        <img src={WorkHouseImg} alt="Workhouse" />
+        <a className='minepet-img' href="http://ipn-software.vercel.app/" target='_blanket'>
+        <img src={ipnImg} alt="IPN" />
         </a>
       </div>
   
